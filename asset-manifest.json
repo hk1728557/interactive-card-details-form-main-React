@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/interactive-card-details-form-main-React/static/css/main.b38d9049.css",
+    "main.js": "/interactive-card-details-form-main-React/static/js/main.a6b8a35b.js",
+    "static/js/453.f3de7bed.chunk.js": "/interactive-card-details-form-main-React/static/js/453.f3de7bed.chunk.js",
+    "static/media/bg-main-desktop.png": "/interactive-card-details-form-main-React/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
+    "static/media/cardback.png": "/interactive-card-details-form-main-React/static/media/cardback.23f68fa3aa3d5b33dfc8.png",
+    "static/media/cardfront.png": "/interactive-card-details-form-main-React/static/media/cardfront.8153e2ca184402a8385f.png",
+    "index.html": "/interactive-card-details-form-main-React/index.html",
+    "static/media/icon-complete.svg": "/interactive-card-details-form-main-React/static/media/icon-complete.8fd757c0c5c44b1d597ca411400e046d.svg",
+    "static/media/cardlogo.svg": "/interactive-card-details-form-main-React/static/media/cardlogo.8ca9036515954c3f8191559dce9c7bdf.svg",
+    "main.b38d9049.css.map": "/interactive-card-details-form-main-React/static/css/main.b38d9049.css.map",
+    "main.a6b8a35b.js.map": "/interactive-card-details-form-main-React/static/js/main.a6b8a35b.js.map",
+    "453.f3de7bed.chunk.js.map": "/interactive-card-details-form-main-React/static/js/453.f3de7bed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b38d9049.css",
+    "static/js/main.a6b8a35b.js"
+  ]
+}
