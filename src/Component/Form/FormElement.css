@@ -1,0 +1,86 @@
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 400px;
+}
+
+label {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: hsl(240, 2%, 12%);
+  text-transform: uppercase;
+  width: 100%;
+  text-align: left;
+}
+.cvclabel{
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid hsl(270, 3%, 87%);
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.datecvc {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.month,
+.year {
+  flex: 1;
+}
+
+.CVC {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.confirm-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background: hsl(278, 68%, 11%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}

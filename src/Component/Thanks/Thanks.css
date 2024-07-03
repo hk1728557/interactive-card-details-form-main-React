@@ -1,0 +1,33 @@
+.thanksbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transform: translate(-30%, 40%);
+}
+img{
+    width: 70px;
+    height: auto;
+}
+
+.thanktext {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+}
+
+.cardDetails {
+    font-weight: bold;
+    color: rgb(141, 141, 145);
+    margin-top: 0; 
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+    .thanksbody {
+        transform: translate(-10%, -20%);
+    }
+}

@@ -1,0 +1,35 @@
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.column-1 {
+    /* Using column-1 the gradient as background color */
+    /* background: linear-gradient(45deg, hsl(249, 99%, 64%), hsl(278, 94%, 30%));  */
+    background-image: url('../Images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+
+.column-2 {display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Using container-2 background  color */
+    background-color:#ffffff;
+    flex: 2; 
+}
+
+
+/* Mobile styles for use responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .column {
+        flex: 1 1 100%;
+    }
+}
